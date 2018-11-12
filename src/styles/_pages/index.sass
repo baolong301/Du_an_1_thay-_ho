@@ -17,4 +17,80 @@ header
 			&:hover
 				color: #d8b978
 				text-decoration: underline
+				
 ////////////////////////////////////////////////////////////////////
+.home-slider
+	
+.home_service
+	+Sideptrai(#fff,#000000)
+	figure
+		position: relative
+		figcaption
+			position: absolute
+			width: 80%
+			right: 10%
+			background: #fff
+			bottom: 10%
+			padding-top: 1rem
+			opacity: 0
+			&:hover
+				opacity: 1
+				transition: 1s ease-in-out
+			+media-breakpoint-down(sm)
+				opacity: 1
+
+
+	+media-breakpoint-up(md)
+		.sevice-balace
+			margin-bottom: 30px
+	.img-fluid
+		+media-breakpoint-down(sm)
+			padding-bottom: 3rem
+.home_lens
+	+Sideptrai(#f3f4f7,#000000,800px)
+	.btn-primary
+		padding: 0.8rem 5rem
+		background: #3c4d93
+		border-color: #3c4d93
+		opacity: 0
+		&:hover
+			opacity: 1
+		+media-breakpoint-down(sm)
+				opacity: 1
+	.backgroud
+		position: relative
+		.content
+			width: 80%
+
+			position: absolute
+			text-align: left
+			left: 20%
+			top: 20%
+			.btn
+				color:#efd6c0
+				background: #000
+				padding: 10px 23px
+				+media-breakpoint-down(md)
+					display: none
+
+
+
+.home_product
+	+Sideptrai(#fff,#000000,800px)
+	.col-md-4
+		figure
+			position: absolute
+			right: 100px
+			top: 250px
+			+media-breakpoint-down(sm)
+				position: relative
+				right: 0
+				top: 0
+				padding: 1rem 3rem
+			figcaption
+				.btn-primary 
+					color: #3c4d93
+					border-color: #3c4d93
+					padding: 20px 75px
+					background-color: #fff
+

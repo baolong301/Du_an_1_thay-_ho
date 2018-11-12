@@ -6352,4 +6352,93 @@ header .navbar-light .navbar-nav .nav-link {
       color: #d8b978;
       text-decoration: underline; } }
 
+.home_service {
+  min-height: 368px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  color: #000000; }
+  .home_service figure {
+    position: relative; }
+    .home_service figure figcaption {
+      position: absolute;
+      width: 80%;
+      right: 10%;
+      background: #fff;
+      bottom: 10%;
+      padding-top: 1rem;
+      opacity: 0; }
+      .home_service figure figcaption:hover {
+        opacity: 1;
+        transition: 1s ease-in-out; }
+      @media (max-width: 767.98px) {
+        .home_service figure figcaption {
+          opacity: 1; } }
+  @media (min-width: 768px) {
+    .home_service .sevice-balace {
+      margin-bottom: 30px; } }
+  @media (max-width: 767.98px) {
+    .home_service .img-fluid {
+      padding-bottom: 3rem; } }
+
+.home_lens {
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #f3f4f7;
+  color: #000000; }
+  .home_lens .btn-primary {
+    padding: 0.8rem 5rem;
+    background: #3c4d93;
+    border-color: #3c4d93;
+    opacity: 0; }
+    .home_lens .btn-primary:hover {
+      opacity: 1; }
+    @media (max-width: 767.98px) {
+      .home_lens .btn-primary {
+        opacity: 1; } }
+  .home_lens .backgroud {
+    position: relative; }
+    .home_lens .backgroud .content {
+      width: 80%;
+      position: absolute;
+      text-align: left;
+      left: 20%;
+      top: 20%; }
+      .home_lens .backgroud .content .btn {
+        color: #efd6c0;
+        background: #000;
+        padding: 10px 23px; }
+        @media (max-width: 991.98px) {
+          .home_lens .backgroud .content .btn {
+            display: none; } }
+
+.home_product {
+  min-height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  color: #000000; }
+  .home_product .col-md-4 figure {
+    position: absolute;
+    right: 100px;
+    top: 250px; }
+    @media (max-width: 767.98px) {
+      .home_product .col-md-4 figure {
+        position: relative;
+        right: 0;
+        top: 0;
+        padding: 1rem 3rem; } }
+    .home_product .col-md-4 figure figcaption .btn-primary {
+      color: #3c4d93;
+      border-color: #3c4d93;
+      padding: 20px 75px;
+      background-color: #fff; }
+
 /*# sourceMappingURL=main.css.map */
