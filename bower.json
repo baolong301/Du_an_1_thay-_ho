@@ -1,0 +1,26 @@
+{
+  "name": "fullstackvietnam",
+  "description": "Fullstack Vietnam lò đào tạo lập trình viên, designer chuyên nghiệp tại Sài Gòn. Gọi: 0 96 96 89 89 3",
+  "main": "index.js",
+  "authors": [
+    "FullStack VietNam"
+  ],
+  "license": "ISC",
+  "homepage": "https://fullstackvietnam.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "popper.js": "^1.14.3",
+    "jquery": "^3.3.1",
+    "font-awesome": "4.7.0",
+    "k-sass-core": "^6.0.4",
+    "animate.css": "^3.7.0",
+    "owl.carousel": "^2.3.4"
+  }
+}

@@ -1,0 +1,78 @@
+extends _layout/layout
+
+//- Các giá trị mặc định cho trang web
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+//- Phần khai báo body
+block body
+	//- Bạn viết code vào đây nhớ là phải mở đầu bằng section ở mỗi khối
+	section.home-slider
+		.owl-carousel.owl-theme
+			.item
+				img(src="./img/home_slider_1.jpg", alt="")
+				.title
+					.container
+						.row
+							.col-md-7
+								h2 Chúng tôi là FullStack Vietnam
+								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
+			.item
+				img(src="./img/home_slider_1.jpg", alt="")
+				.title
+					.container
+						.row
+							.col-md-7
+								h2 Chúng tôi là FullStack Vietnam
+								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
+			.item
+				img(src="./img/home_slider_1.jpg", alt="")
+				.title
+					.container
+						.row
+							.col-md-7
+								h2 Chúng tôi là FullStack Vietnam
+								p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
+	section.home-news
+		.container
+			.row
+				.col-md-4.item
+					figure
+						.blockimg
+							img(src="./img/home_news_1.jpg", alt="", srcset="")
+						figcaption
+							h3 
+								a(href="#") Chúng tôi là FullStack Vietnam
+							time 22/06/2018
+							p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
+				.col-md-4.item
+					figure
+						.blockimg
+							img(src="./img/home_news_2.jpg", alt="", srcset="")
+						figcaption
+							h3 
+								a(href="#") Chúng tôi là FullStack Vietnam
+							time 22/06/2018
+							p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
+				.col-md-4.item
+					figure
+						.blockimg
+							img(src="./img/home_news_3.jpg", alt="", srcset="")
+						figcaption
+							h3 
+								a(href="#") Chúng tôi là FullStack Vietnam
+							time 22/06/2018
+							p Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti incidunt ex, autem dignissimos illum aperiam pariatur in explicabo corporis delectus totam! 
+	section.home-clients.mt-5
+		.container
+			.row
+				.col
+					.owl-carousel.owl-theme
+						- for(x=1;x<10;x++)
+							.item
+								if (x < 7)
+									img(src="./img/clients_"+x+".png", alt="")
+								else
+									img(src="./img/clients_"+(x-3)+".png", alt="")
