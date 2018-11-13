@@ -6346,11 +6346,14 @@ header .navbar-light .navbar-nav .nav-link {
   color: #e3cea0; }
 
 @media (min-width: 768px) {
-  header .navbar-light .navbar-nav .nav-link {
-    transition: 0.3s all ease-in-out; }
-    header .navbar-light .navbar-nav .nav-link:hover {
-      color: #d8b978;
-      text-decoration: underline; } }
+  header {
+    position: fixed;
+    z-index: 1000; }
+    header .navbar-light .navbar-nav .nav-link {
+      transition: 0.3s all ease-in-out; }
+      header .navbar-light .navbar-nav .nav-link:hover {
+        color: #d8b978;
+        text-decoration: underline; } }
 
 .home_service {
   min-height: 368px;

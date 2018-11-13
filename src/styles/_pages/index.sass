@@ -4,22 +4,27 @@
 	text-align: center
 //////////////////////Phần Header////////////////////////////////////
 header
+
 	span
 		color: #d8b978
 	.navbar-light .navbar-nav .active > .nav-link
 		color: #d8b978
 	.navbar-light .navbar-nav .nav-link
 		color: lighten(#d8b978,10%)
+
 +media-breakpoint-up(md)
 	header
+		position: fixed
+		z-index: 1000
 		.navbar-light .navbar-nav .nav-link
 			transition: 0.3s all ease-in-out
 			&:hover
 				color: #d8b978
 				text-decoration: underline
-				
+			
 ////////////////////////////////////////////////////////////////////
 .home-slider
+	
 	
 .home_service
 	+Sideptrai(#fff,#000000)
@@ -75,7 +80,7 @@ header
 
 
 
-.home_product
+.home_product 
 	+Sideptrai(#fff,#000000,800px)
 	.col-md-4
 		figure
@@ -94,3 +99,4 @@ header
 					padding: 20px 75px
 					background-color: #fff
 
+	
