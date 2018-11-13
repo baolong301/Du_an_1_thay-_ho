@@ -6347,7 +6347,6 @@ header .navbar-light .navbar-nav .nav-link {
 
 @media (min-width: 768px) {
   header {
-    position: fixed;
     z-index: 1000; }
     header .navbar-light .navbar-nav .nav-link {
       transition: 0.3s all ease-in-out; }
