@@ -6443,4 +6443,25 @@ header .navbar-light .navbar-nav .nav-link {
       padding: 20px 75px;
       background-color: #fff; }
 
+@media (min-width: 768px) {
+  .sevice-balace .col-md-8 {
+    position: relative; }
+    .sevice-balace .col-md-8 .owl-theme .owl-nav [class*=owl-]:hover {
+      background: none; }
+    .sevice-balace .col-md-8 button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+      .sevice-balace .col-md-8 button i {
+        font-size: xx-large;
+        font-weight: bold;
+        color: white;
+        transition: 0.3s all ease-in-out; }
+        .sevice-balace .col-md-8 button i:hover, .sevice-balace .col-md-8 button i:active {
+          color: #d8b978; }
+    .sevice-balace .col-md-8 .owl-prev {
+      left: 2%; }
+    .sevice-balace .col-md-8 .owl-next {
+      right: 2%; } }
+
 /*# sourceMappingURL=main.css.map */

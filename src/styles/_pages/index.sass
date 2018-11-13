@@ -1,7 +1,4 @@
-=center()
-	justify-content: center
-	align-items: center
-	text-align: center
+
 //////////////////////Phần Header////////////////////////////////////
 header
 
@@ -23,11 +20,13 @@ header
 				text-decoration: underline
 			
 ////////////////////////////////////////////////////////////////////
+/////////////////////////////Body///////////////////////////////////
 .home-slider
 	
 	
 .home_service
-	+Sideptrai(#fff,#000000)
+	+center(#fff,#000000)
+
 	figure
 		position: relative
 		figcaption
@@ -52,7 +51,7 @@ header
 		+media-breakpoint-down(sm)
 			padding-bottom: 3rem
 .home_lens
-	+Sideptrai(#f3f4f7,#000000,800px)
+	+center(#f3f4f7,#000000,800px)
 	.btn-primary
 		padding: 0.8rem 5rem
 		background: #3c4d93
@@ -81,7 +80,7 @@ header
 
 
 .home_product 
-	+Sideptrai(#fff,#000000,800px)
+	+center(#fff,#000000,800px)
 	.col-md-4
 		figure
 			position: absolute
@@ -98,5 +97,30 @@ header
 					border-color: #3c4d93
 					padding: 20px 75px
 					background-color: #fff
-
-	
+//////////////////////Body PC///////////////////
++media-breakpoint-up(md)
+	.sevice-balace
+		.col-md-8
+			position: relative
+			//tắt background của button//
+			.owl-theme .owl-nav [class*=owl-]
+				&:hover
+					background: none
+			button
+				position: absolute
+				top: 50%
+				transform: translateY(-50%)
+				i
+					font-size: xx-large
+					font-weight: bold
+					color: white
+					transition: 0.3s all ease-in-out
+					&:hover,
+					&:active
+						color: #d8b978
+			.owl-prev
+				left: 2%
+			.owl-next
+				right: 2%
+////////////////////////////////////////////////
+////////////////////////////////////////////////
