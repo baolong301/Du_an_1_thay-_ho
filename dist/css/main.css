@@ -6652,8 +6652,9 @@ header {
 .hovereffect h3 {
   position: absolute;
   bottom: 1rem;
-  left: 1rem;
-  color: white; }
+  left: -3rem;
+  color: white;
+  transition: 0.3s all ease-in-out; }
 
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff; }
@@ -6677,6 +6678,9 @@ header {
 .hovereffect:hover a.info {
   -webkit-transition-delay: .2s;
   transition-delay: .2s; }
+
+.hovereffect:hover h3 {
+  left: 1rem; }
 
 figure {
   margin: 0 !important; }
