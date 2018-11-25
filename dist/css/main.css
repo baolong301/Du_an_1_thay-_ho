@@ -6793,6 +6793,7 @@ figure {
   margin: 30px 0; }
 
 .canhcam-testimonials-1 {
+  background: #3c3c3c;
   padding-top: 2rem;
   padding-right: 0;
   padding-bottom: 2rem;
@@ -6838,7 +6839,8 @@ figure {
       bottom: 0;
       left: 0;
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      top: 100%; }
       .canhcam-testimonials-1 .owl-carousel .owl-dots .owl-dot {
         margin: 0.5rem; }
         .canhcam-testimonials-1 .owl-carousel .owl-dots .owl-dot:focus {
@@ -6850,7 +6852,7 @@ figure {
           display: block;
           border-radius: 50%; }
         .canhcam-testimonials-1 .owl-carousel .owl-dots .owl-dot.active span {
-          background: #2e3192; }
+          background: #ebc678; }
 
 .testimonial-slider .item {
   text-align: center;
@@ -6872,6 +6874,7 @@ figure {
       position: relative;
       line-height: 1.5rem;
       display: inline-flex;
+      color: white;
       padding-top: 0;
       padding-right: 3rem;
       padding-bottom: 0;
@@ -6884,7 +6887,15 @@ figure {
         font-size: 3rem;
         height: 2rem;
         width: 2rem;
-        color: #a6a6a6; }
+        color: #ebc678;
+        filter: alpha(opacity=50);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+        -webkit-opacity: 0.5;
+        -khtml-opacity: 0.5;
+        -moz-opacity: 0.5;
+        -ms-opacity: 0.5;
+        -o-opacity: 0.5;
+        opacity: 0.5; }
       .testimonial-slider .item figcaption blockquote:before {
         content: "\201C";
         position: absolute;
@@ -6895,6 +6906,8 @@ figure {
         position: absolute;
         right: 1rem;
         bottom: -1rem; }
+    .testimonial-slider .item figcaption .author .mt-4 {
+      color: #ebc678; }
     .testimonial-slider .item figcaption .author span {
       display: block;
       color: #a6a6a6;

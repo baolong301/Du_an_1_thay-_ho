@@ -424,6 +424,7 @@ figure
 ////////////////////Khách Hàng///////////////////////////////
 
 .canhcam-testimonials-1
+	background: #3c3c3c
 	+pad(2rem 0)
 	+media-breakpoint-up(lg)
 		+pad(4rem 0)
@@ -460,6 +461,7 @@ figure
 			+pos(abs, null null 0 0)
 			width: 100%
 			text-align: center
+			top: 100%
 			.owl-dot
 				+mar(.5rem)
 				&:focus
@@ -472,7 +474,7 @@ figure
 					+bor-rad(50%)
 				&.active
 					span
-						background: color-get($mau,main)
+						background: #ebc678
 // img.customer
 // 	max-width: 90px
 // 	+bor-rad(50%)
@@ -498,6 +500,7 @@ figure
 					position: relative
 					line-height: 1.5rem
 					display: inline-flex
+					color: white
 					+pad(0 3rem)
 					&:after, &:before
 						content: ''
@@ -507,7 +510,8 @@ figure
 						+fz(3rem)
 						height: 2rem
 						width: 2rem
-						color: darken(color-get($mau,trang),35%)
+						color: #ebc678
+						+opacity(0.5)
 					&:before
 						content: "\201C"
 						+pos(abs, 0 null null 1rem)
@@ -515,6 +519,8 @@ figure
 						content: "\201D"
 						+pos(abs, null 1rem -1rem null)
 				.author
+					.mt-4
+						color: #ebc678
 					span
 						display: block
 						color: darken(color-get($mau,trang),35%)
