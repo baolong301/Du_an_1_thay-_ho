@@ -23,6 +23,7 @@ block body
 				figure
 					img.img-fluid.w-100(src="./img/home_slider_3.png", alt="", srcset="")
 	//-Phần Dịch Vụ
+	//- Sản Phẩm Mới Nhất
 	section.home_service
 		.container
 			.row
@@ -40,18 +41,6 @@ block body
 						.item
 							figure
 								img.img-fluid.w-100(src="./img/home_service_5.png", alt="", srcset="")
-				//- .col-6.col-md-4
-				//- 	.hovereffect
-				//- 		img.img-responsive.w-100.img-fluid(src='./img/home_service_1.png', alt='')
-				//- 		.overlay
-				//- 			h2 Hover effect 1
-				//- 			a.info(href='#') link here
-				//- .col-sm-6.col-md-4
-				//- 	figure
-				//- 		img.img-fluid.w-100(src="./img/home_service_1.png", alt="", srcset="")
-				//- 		figcaption
-				//- 			h6 Moisture - Bubble Gray
-				//- 			p 290.000Vnđ
 				.col-6.col-md-4.space
 					.hovereffect
 						img.img-responsive.w-100.img-fluid(src='./img/home_service_1.png', alt='')
@@ -80,61 +69,64 @@ block body
 							h2 Hover effect 1
 							a.info(href='#') Detail
 							h3 $15.00
-				//- .col-6.col-md-4
-				//- 	.hovereffect
-				//- 		img.img-responsive.w-100.img-fluid(src='./img/home_service_1.png', alt='')
-				//- 		.overlay
-				//- 			h2 Hover effect 1
-				//- 			a.info(href='#') link here
-				//- .col-6.col-md-4
-				//- 	.hovereffect
-				//- 		img.img-responsive.w-100.img-fluid(src='./img/home_service_1.png', alt='')
-				//- 		.overlay
-				//- 			h2 Hover effect 1
-				//- 			a.info(href='#') link here
-				//- .col-6.col-md-4
-				//- 	.hovereffect
-				//- 		img.img-responsive.w-100.img-fluid(src='./img/home_service_1.png', alt='')
-				//- 		.overlay
-				//- 			h2 Hover effect 1
-				//- 			a.info(href='#') link here
-				
+	//- Sản Phẩm Nổi Bật
 	section.home_lens
 		.container
-			H2 Top Pieces On Sale
+			h2 Sản Phẩm Bán Chạy
 			.row
-				.col-md-3
-					figure
-						img.img-fluid.w-100(src="./img/home_lens_1.png", alt="", srcset="")
-						ficaption
-							h6 Mazio Ozawa
-							p 50.000vnd
-							button.btn.btn-primary contact
-				.col-md-3
-					figure
-						img.img-fluid.w-100(src="./img/home_lens_2.png", alt="", srcset="")
-						ficaption
-							h6 Mazio Ozawa
-							p 50.000vnd
-							button.btn.btn-primary contact
-				.col-md-3
-					figure
-						img.img-fluid.w-100(src="./img/home_lens_3.png", alt="", srcset="")
-						ficaption
-							h6 Mazio Ozawa
-							p 50.000vnd
-							button.btn.btn-primary contact
-				.col-md-3
-					figure
-						img.img-fluid.w-100(src="./img/home_lens_4.png", alt="", srcset="")
-						ficaption
-							h6 Mazio Ozawa
-							p 50.000vnd
-							button.btn.btn-primary contact
-				figure.backgroud
-					img.img-fluid.w-100.h-100(src="./img/home_baner_1.png", alt="", srcset="")
-					figcaption.content
-						h3 Grand Opening
-						p 179D CMT8, P.5, Q3. Tp.HCM
-						button.btn View more
+				.col-lg-3.col-md-4.col-sm-6.col-xs-12
+					.hovereffect2
+						img.img-responsive(src='./img/home_service_4.png', alt='')
+						.overlay
+						h2 Effect 11
+						p
+							a(href='#') LINK HERE
+				.col-lg-3.col-md-4.col-sm-6.col-xs-12
+					.hovereffect2
+						img.img-responsive(src='./img/home_service_4.png', alt='')
+						.overlay
+						h2 Effect 11
+						p
+							a(href='#') LINK HERE
+				.col-lg-3.col-md-4.col-sm-6.col-xs-12
+					.hovereffect2
+						img.img-responsive(src='./img/home_service_4.png', alt='')
+						.overlay
+						h2 Effect 11
+						p
+							a(href='#') LINK HERE
+				.col-lg-3.col-md-4.col-sm-6.col-xs-12
+					.hovereffect2
+						img.img-responsive(src='./img/home_service_4.png', alt='')
+						.overlay
+						h2 Effect 11
+						p
+							a(href='#') LINK HERE
+			img.img-fluid.w-100.banner2(src='http://thietkewebchuyennghiep.edu.vn/wp-content/uploads/2016/12/web-ban-to-yen-768x210.png', alt='banner')
+	//- Cảm Nhận Của Khách Hàng
+	section.canhcam-testimonials-1
+	.container
+		.row
+			.col
+				.testimonial-slider.owl-carousel.owl-theme
+					.owl-theme
+						figure.item
+							img.customer(src='./img/avatar-large-1.png', alt='sq-sample10')
+							figcaption
+								blockquote
+									| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac condimentum mi, vitae iaculis ante. Suspendisse viverra urna quis diam sodales, convallis auctor nibh.
+								.author
+									h5.mt-4
+										| Pelican Steve
+										span LittleSnippets
+						figure.item
+							img.customer(src='./img/avatar-large-2.jpg', alt='sq-sample10')
+							figcaption
+								blockquote
+									| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ac condimentum mi, vitae iaculis ante. Suspendisse viverra urna quis diam sodales, convallis auctor nibh.
+								.author
+									h5.mt-4
+										| Pelican Steve
+										span LittleSnippets
+
 
