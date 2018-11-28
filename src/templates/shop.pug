@@ -1,0 +1,38 @@
+extends _layout/layout
+
+//- Các giá trị mặc định cho trang web
+block variables
+	- var title = 'shop'
+	- var description = 'day la trang shop'
+	- var bodyclass = 'shop'
+
+//- Phần khai báo body
+block body
+	//- tao section shop
+	section.home-shop
+		.container
+			.row
+				.col-md-4
+					img.img-fluid(src="", alt="", srcset="")
+				.col-md-8
+					p mã sản phẩm:
+					p tình trạng
+					hr
+					.row
+						.col-md-6
+							del 200.000vnd
+						.col-md-6
+							p 200.000vnd
+					a(href="#", target="_blank", rel="noopener noreferrer") >> thông báo cho giá tốt <<
+					.row
+						.col-md-6
+							.input-group
+								span.input-group-btn
+									button.quantity-left-minus.btn.btn-danger.btn-number(type='button', data-type='minus', data-field='')
+										span.glyphicon.glyphicon-minus
+								input#quantity.form-control.input-number(type='text', name='quantity', value='10', min='1', max='100')
+								span.input-group-btn
+									button.quantity-right-plus.btn.btn-success.btn-number(type='button', data-type='plus', data-field='')
+										span.glyphicon.glyphicon-plus
+						.col-md-6
+							p số lượng
