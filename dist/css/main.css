@@ -6749,7 +6749,7 @@ header {
   content: '';
   opacity: 0;
   filter: alpha(opacity=0);
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
+  -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s, transform 0.45s;
   -webkit-transform: translate3d(-20px, 0, 0);
   transform: translate3d(-20px, 0, 0); }
@@ -6788,6 +6788,9 @@ figure {
 
 .space {
   margin-bottom: 30px; }
+
+.c-319 {
+  height: 319.2px; }
 
 .banner2 {
   margin: 30px 0; }
@@ -6913,5 +6916,170 @@ figure {
       color: #a6a6a6;
       font-size: 0.9rem;
       margin-top: .5rem; }
+
+.canhcam-shop-details-2 {
+  padding-top: 3rem; }
+  .canhcam-shop-details-2 .product-details {
+    padding: 2rem 0; }
+    @media (min-width: 768px) {
+      .canhcam-shop-details-2 .product-details {
+        padding: 3rem 0; }
+        .canhcam-shop-details-2 .product-details .order-md-1 {
+          -ms-flex-order: 1;
+          order: 1; }
+        .canhcam-shop-details-2 .product-details .order-md-2 {
+          -ms-flex-order: 2;
+          order: 2; } }
+    .canhcam-shop-details-2 .product-details .infomation h1 {
+      font-size: 1.8rem; }
+    .canhcam-shop-details-2 .product-details .infomation h3 {
+      font-size: 1.1rem; }
+    .canhcam-shop-details-2 .product-details .infomation .price {
+      color: #e74c3c;
+      margin-bottom: 0;
+      font-size: 1.3rem; }
+    .canhcam-shop-details-2 .product-details .infomation .price-out {
+      color: gray;
+      font-size: 0.85rem;
+      text-decoration: line-through; }
+    .canhcam-shop-details-2 .product-details .infomation hr {
+      border-top: 1px dashed #f2f2f2; }
+    .canhcam-shop-details-2 .product-details .infomation .table {
+      background: #f7f7f7; }
+      .canhcam-shop-details-2 .product-details .infomation .table tr td {
+        border-color: #ffffff; }
+    .canhcam-shop-details-2 .product-details .infomation #quantity input {
+      max-width: 40px;
+      text-align: center;
+      border-color: #cccccc; }
+    .canhcam-shop-details-2 .product-details .infomation #quantity .btn {
+      border-color: #cccccc; }
+    .canhcam-shop-details-2 .product-details .infomation #quantity .btn-primary {
+      color: #d5b36e;
+      background-color: #262626; }
+
+.canhcam-boxes-17 {
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background: url(../img/sub-3.jpg);
+  padding-top: 1.5rem;
+  padding-right: 0;
+  padding-bottom: 1.5rem;
+  padding-left: 0; }
+  .canhcam-boxes-17 .feature .item {
+    margin-bottom: 1rem; }
+    .canhcam-boxes-17 .feature .item:last-child {
+      margin-bottom: 0; }
+    .canhcam-boxes-17 .feature .item .feature-col figure {
+      display: flex;
+      margin-bottom: 0; }
+      .canhcam-boxes-17 .feature .item .feature-col figure .icon {
+        width: 4rem;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #ffffff;
+        border-radius: 50%; }
+        .canhcam-boxes-17 .feature .item .feature-col figure .icon em {
+          font-size: 1.4rem;
+          color: #ffffff; }
+      .canhcam-boxes-17 .feature .item .feature-col figure figcaption {
+        width: calc(100% - 4rem);
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        padding-left: 1rem; }
+        .canhcam-boxes-17 .feature .item .feature-col figure figcaption .title {
+          color: #ffffff;
+          font-size: 1rem;
+          font-weight: 600;
+          margin-bottom: 0; }
+        .canhcam-boxes-17 .feature .item .feature-col figure figcaption .des {
+          margin-bottom: 0;
+          color: rgba(255, 255, 255, 0.5);
+          line-height: 1rem;
+          font-size: .85rem; }
+  @media (min-width: 768px) {
+    .canhcam-boxes-17 {
+      padding: 3rem; }
+      .canhcam-boxes-17 .feature .item {
+        margin-bottom: 0; }
+        .canhcam-boxes-17 .feature .item .feature-col figure {
+          margin-bottom: 0; } }
+
+.canhcam-carousel-2 {
+  padding-top: 2rem;
+  padding-right: 0;
+  padding-bottom: 2rem;
+  padding-left: 0; }
+  @media (min-width: 992px) {
+    .canhcam-carousel-2 {
+      padding-top: 4rem;
+      padding-right: 0;
+      padding-bottom: 4rem;
+      padding-left: 0; } }
+  .canhcam-carousel-2 .owl-carousel {
+    position: relative; }
+    .canhcam-carousel-2 .owl-carousel .owl-nav button.owl-prev, .canhcam-carousel-2 .owl-carousel .owl-nav button.owl-next {
+      padding: 0.5rem !important;
+      width: 3rem;
+      height: 3rem;
+      background: #f2f2f2;
+      border-radius: 50%;
+      text-align: center; }
+      .canhcam-carousel-2 .owl-carousel .owl-nav button.owl-prev:focus, .canhcam-carousel-2 .owl-carousel .owl-nav button.owl-next:focus {
+        outline: none; }
+    .canhcam-carousel-2 .owl-carousel .owl-nav button:hover.owl-prev, .canhcam-carousel-2 .owl-carousel .owl-nav button:hover.owl-next, .canhcam-carousel-2 .owl-carousel .owl-nav button.active.owl-prev, .canhcam-carousel-2 .owl-carousel .owl-nav button.active.owl-next {
+      background: #2e3192; }
+    @media (min-width: 768px) {
+      .canhcam-carousel-2 .owl-carousel .owl-nav {
+        margin-top: 0; }
+        .canhcam-carousel-2 .owl-carousel .owl-nav button.owl-prev, .canhcam-carousel-2 .owl-carousel .owl-nav button.owl-next {
+          margin: 0;
+          -webkit-transform: translateY(-50%);
+          -khtml-transform: translateY(-50%);
+          -moz-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          -o-transform: translateY(-50%);
+          transform: translateY(-50%); }
+          .canhcam-carousel-2 .owl-carousel .owl-nav button.owl-prev:focus, .canhcam-carousel-2 .owl-carousel .owl-nav button.owl-next:focus {
+            outline: none; }
+        .canhcam-carousel-2 .owl-carousel .owl-nav button.owl-prev {
+          position: absolute;
+          top: 50%;
+          left: -1rem; }
+        .canhcam-carousel-2 .owl-carousel .owl-nav button.owl-next {
+          position: absolute;
+          top: 50%;
+          right: -1rem; } }
+    .canhcam-carousel-2 .owl-carousel .owl-dots .owl-dot:focus {
+      outline: none; }
+    .canhcam-carousel-2 .owl-carousel .owl-dots .owl-dot span {
+      background: #f2f2f2; }
+    .canhcam-carousel-2 .owl-carousel .owl-dots .owl-dot.active span {
+      background: #2e3192; }
+
+.list-items .item a {
+  color: gray;
+  text-decoration: none; }
+  .list-items .item a .price {
+    color: #e74c3c;
+    font-weight: bold; }
+
+.list-items .item:hover {
+  color: #000000; }
+  .list-items .item:hover img {
+    filter: alpha(opacity=80);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    -webkit-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+    -ms-opacity: 0.8;
+    -o-opacity: 0.8;
+    opacity: 0.8; }
+  .list-items .item:hover h3 {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=main.css.map */
