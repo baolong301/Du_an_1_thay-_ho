@@ -1,4 +1,9 @@
 header
+	position: fixed
+	width: 100%
+	opacity: 0.8
+	z-index: 2
+	transition: 0.3s all
 	.navbar
 		+pad(null 0)
 	.navbar-brand
@@ -8,3 +13,19 @@ header
 		.navbar-brand
 			img 
 				max-height: 3rem
+	span
+		color: #d8b978
+	.navbar-light .navbar-nav .active > .nav-link
+		color: #d8b978
+	.navbar-light .navbar-nav .nav-link
+		color: lighten(#d8b978,10%)
+
++media-breakpoint-up(md)
+	header
+		// position: fixed
+		z-index: 1000
+		.navbar-light .navbar-nav .nav-link
+			transition: 0.3s all ease-in-out
+			&:hover
+				color: #d8b978
+				text-decoration: underline

@@ -6322,25 +6322,20 @@ html, body {
   .container {
     width: auto; } }
 
-header .navbar {
-  padding-right: 0;
-  padding-left: 0; }
-
-header .navbar-brand img {
-  max-height: 2rem; }
-
-@media (min-width: 768px) {
-  header .navbar-brand img {
-    max-height: 3rem; } }
-
-footer img {
-  max-width: 200px; }
-
 header {
   position: fixed;
   width: 100%;
   opacity: 0.8;
-  z-index: 2; }
+  z-index: 2;
+  transition: 0.3s all; }
+  header .navbar {
+    padding-right: 0;
+    padding-left: 0; }
+  header .navbar-brand img {
+    max-height: 2rem; }
+  @media (min-width: 768px) {
+    header .navbar-brand img {
+      max-height: 3rem; } }
   header span {
     color: #d8b978; }
   header .navbar-light .navbar-nav .active > .nav-link {
@@ -6356,6 +6351,12 @@ header {
       header .navbar-light .navbar-nav .nav-link:hover {
         color: #d8b978;
         text-decoration: underline; } }
+
+footer img {
+  max-width: 200px; }
+
+.no-margin {
+  margin: 0 !important; }
 
 .home_service {
   min-height: 368px;
@@ -7081,5 +7082,459 @@ figure {
     opacity: 0.8; }
   .list-items .item:hover h3 {
     text-decoration: underline; }
+
+.canhcam-shop-3 {
+  padding-top: 2rem;
+  padding-right: 0;
+  padding-bottom: 2rem;
+  padding-left: 0; }
+  @media (min-width: 992px) {
+    .canhcam-shop-3 {
+      padding-top: 6rem;
+      padding-right: 0;
+      padding-bottom: 6rem;
+      padding-left: 0; } }
+  .canhcam-shop-3 .product-lists .search input {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 1rem;
+    padding-left: 1rem;
+    border-color: #cccccc; }
+    .canhcam-shop-3 .product-lists .search input:focus, .canhcam-shop-3 .product-lists .search input:active {
+      outline: none;
+      -webkit-box-shadow: none;
+      -khtml-box-shadow: none;
+      -moz-box-shadow: none;
+      -ms-box-shadow: none;
+      -o-box-shadow: none;
+      box-shadow: none; }
+  .canhcam-shop-3 .product-lists .search button {
+    padding-right: .75rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0;
+    background: #e6e6e6;
+    border-color: #cccccc; }
+    .canhcam-shop-3 .product-lists .search button:focus, .canhcam-shop-3 .product-lists .search button:active {
+      outline: none;
+      -webkit-box-shadow: none;
+      -khtml-box-shadow: none;
+      -moz-box-shadow: none;
+      -ms-box-shadow: none;
+      -o-box-shadow: none;
+      box-shadow: none; }
+  .canhcam-shop-3 .product-lists .boxmenu {
+    margin-bottom: 2rem; }
+    .canhcam-shop-3 .product-lists .boxmenu .list-group {
+      border: 1px solid #cccccc;
+      border-radius: 0.25rem; }
+      .canhcam-shop-3 .product-lists .boxmenu .list-group .list-group-item {
+        padding: 0;
+        border: 0;
+        position: relative; }
+        .canhcam-shop-3 .product-lists .boxmenu .list-group .list-group-item .list-group-item-action {
+          padding-top: 0.5rem;
+          padding-right: 1rem;
+          padding-bottom: 0.5rem;
+          padding-left: 1rem;
+          display: flex;
+          align-items: center;
+          background: none;
+          color: #666666; }
+          .canhcam-shop-3 .product-lists .boxmenu .list-group .list-group-item .list-group-item-action i {
+            padding-right: .5rem;
+            width: 2rem;
+            font-size: 1.5rem;
+            text-align: center;
+            color: #cccccc; }
+        .canhcam-shop-3 .product-lists .boxmenu .list-group .list-group-item:hover {
+          background: #2e3192; }
+          .canhcam-shop-3 .product-lists .boxmenu .list-group .list-group-item:hover .list-group-item-action {
+            color: #ffffff; }
+            .canhcam-shop-3 .product-lists .boxmenu .list-group .list-group-item:hover .list-group-item-action i {
+              color: #ffffff; }
+  .canhcam-shop-3 .product-lists .boxprice {
+    background: #debf87bd;
+    padding: 1rem;
+    border-radius: 5px; }
+    @media (min-width: 992px) {
+      .canhcam-shop-3 .product-lists .boxprice {
+        margin-top: 61.6px; } }
+    .canhcam-shop-3 .product-lists .boxprice .title h3 {
+      color: #2e3192;
+      font-size: 1.5rem;
+      margin-bottom: 0; }
+    .canhcam-shop-3 .product-lists .boxprice .title .btn {
+      background: white !important;
+      color: black !important; }
+      .canhcam-shop-3 .product-lists .boxprice .title .btn.collapsed {
+        background: #2e3192 !important;
+        color: white !important; }
+    .canhcam-shop-3 .product-lists .boxprice #filterSearch {
+      padding-top: .5rem;
+      margin-top: .5rem;
+      border-top: 1px dashed #cccccc; }
+      @media (min-width: 768px) {
+        .canhcam-shop-3 .product-lists .boxprice #filterSearch {
+          padding: 0;
+          margin: 0;
+          border: 0; } }
+      .canhcam-shop-3 .product-lists .boxprice #filterSearch h4 {
+        color: black;
+        font-weight: bolder;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        text-transform: uppercase; }
+      .canhcam-shop-3 .product-lists .boxprice #filterSearch hr {
+        border-top: 1px dashed #cccccc; }
+      .canhcam-shop-3 .product-lists .boxprice #filterSearch .checkbox-styled {
+        cursor: pointer;
+        font-size: 0.85rem;
+        line-height: 0.85rem; }
+        .canhcam-shop-3 .product-lists .boxprice #filterSearch .checkbox-styled span {
+          display: inline-block;
+          background: #f7f7f7;
+          padding-top: 0.25rem;
+          padding-right: 0.5rem;
+          padding-bottom: 0.25rem;
+          padding-left: 0.5rem;
+          text-transform: uppercase;
+          border-radius: 3px;
+          border: 1px solid #cccccc;
+          line-height: 1rem; }
+        .canhcam-shop-3 .product-lists .boxprice #filterSearch .checkbox-styled input[type="checkbox"]:checked + span,
+        .canhcam-shop-3 .product-lists .boxprice #filterSearch .checkbox-styled input[type="radio"]:checked + span {
+          background: #2e3192;
+          color: #ffffff;
+          border: 1px solid #2e3192; }
+        .canhcam-shop-3 .product-lists .boxprice #filterSearch .checkbox-styled input {
+          display: none; }
+      .canhcam-shop-3 .product-lists .boxprice #filterSearch .slider .slider-handle {
+        border: 2px solid #2e3192;
+        background: #ffffff;
+        height: 15px;
+        width: 15px; }
+      .canhcam-shop-3 .product-lists .boxprice #filterSearch .slider.slider-horizontal {
+        width: 100%;
+        height: 15px; }
+        .canhcam-shop-3 .product-lists .boxprice #filterSearch .slider.slider-horizontal .slider-track {
+          height: 5px;
+          margin-top: -2px; }
+          .canhcam-shop-3 .product-lists .boxprice #filterSearch .slider.slider-horizontal .slider-track .slider-selection {
+            background: #2e3192; }
+          .canhcam-shop-3 .product-lists .boxprice #filterSearch .slider.slider-horizontal .slider-track .slider-track-low, .canhcam-shop-3 .product-lists .boxprice #filterSearch .slider.slider-horizontal .slider-track .slider-track-high {
+            background: #ffffff; }
+  .canhcam-shop-3 .product-lists .boxproducts {
+    padding: 2rem 0; }
+    .canhcam-shop-3 .product-lists .boxproducts .circle {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      display: flex;
+      z-index: 100; }
+      .canhcam-shop-3 .product-lists .boxproducts .circle span {
+        text-align: center;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background: #2e3192;
+        color: #ffffff;
+        justify-content: center;
+        align-items: center;
+        display: inline-flex;
+        margin-right: .5rem; }
+        .canhcam-shop-3 .product-lists .boxproducts .circle span.circle-hot {
+          background: #e74c3c; }
+        .canhcam-shop-3 .product-lists .boxproducts .circle span.circle-success {
+          background: #2ecc71; }
+    .canhcam-shop-3 .product-lists .boxproducts .bagde {
+      position: absolute;
+      top: 15px;
+      right: -45px;
+      text-align: right;
+      width: 150px;
+      -webkit-transform: rotate(45deg);
+      -khtml-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+      transform: rotate(45deg);
+      z-index: 100; }
+      .canhcam-shop-3 .product-lists .boxproducts .bagde span {
+        width: 150px;
+        background: #2e3192;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 0.25rem;
+        padding-right: 0.5rem;
+        padding-bottom: 0.25rem;
+        padding-left: 0.5rem;
+        display: block; }
+        .canhcam-shop-3 .product-lists .boxproducts .bagde span.bagde-hot {
+          background: #e74c3c; }
+        .canhcam-shop-3 .product-lists .boxproducts .bagde span.bagde-success {
+          background: #2ecc71; }
+    .canhcam-shop-3 .product-lists .boxproducts .item {
+      overflow: hidden;
+      border: 1px solid #f2f2f2;
+      border-top: 0;
+      padding-top: 0;
+      display: flex;
+      flex-direction: column; }
+      .canhcam-shop-3 .product-lists .boxproducts .item:first-child {
+        border-top: 1px solid #f2f2f2; }
+      @media (min-width: 576px) {
+        .canhcam-shop-3 .product-lists .boxproducts .item {
+          padding-top: 0; }
+          .canhcam-shop-3 .product-lists .boxproducts .item:nth-child(2) {
+            border-top: 1px solid #f2f2f2; }
+          .canhcam-shop-3 .product-lists .boxproducts .item:nth-child(2n) {
+            border-left: 0; } }
+      @media (min-width: 992px) {
+        .canhcam-shop-3 .product-lists .boxproducts .item {
+          padding-top: 0; }
+          .canhcam-shop-3 .product-lists .boxproducts .item:nth-child(3) {
+            border-top: 1px solid #f2f2f2; }
+          .canhcam-shop-3 .product-lists .boxproducts .item:nth-child(3n+1) {
+            border-left: 1px solid #f2f2f2; }
+          .canhcam-shop-3 .product-lists .boxproducts .item:nth-child(3n+2) {
+            border-right: 1px solid #f2f2f2;
+            border-left: 0; }
+          .canhcam-shop-3 .product-lists .boxproducts .item:nth-child(3n) {
+            border-left: 0; } }
+      .canhcam-shop-3 .product-lists .boxproducts .item .quickview {
+        display: none; }
+      .canhcam-shop-3 .product-lists .boxproducts .item .list-thumb {
+        display: none; }
+      .canhcam-shop-3 .product-lists .boxproducts .item .addtocart {
+        z-index: 500;
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        width: 100%; }
+        .canhcam-shop-3 .product-lists .boxproducts .item .addtocart .btn-group {
+          flex-wrap: wrap;
+          justify-content: center; }
+          .canhcam-shop-3 .product-lists .boxproducts .item .addtocart .btn-group .btn {
+            background: #4f4f4f;
+            color: #ebc678;
+            border-radius: 1.5rem;
+            display: flex;
+            align-items: center;
+            margin: .5rem; }
+            .canhcam-shop-3 .product-lists .boxproducts .item .addtocart .btn-group .btn i {
+              padding-right: .5rem;
+              display: none; }
+        @media (min-width: 576px) {
+          .canhcam-shop-3 .product-lists .boxproducts .item .addtocart {
+            -webkit-transition: all 0.5s ease-in-out;
+            -khtml-transition: all 0.5s ease-in-out;
+            -moz-transition: all 0.5s ease-in-out;
+            -ms-transition: all 0.5s ease-in-out;
+            -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;
+            padding: 0.5rem;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            -khtml-transform: translateX(-50%) translateY(-50%);
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -ms-transform: translateX(-50%) translateY(-50%);
+            -o-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            z-index: 100;
+            filter: alpha(opacity=0);
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            -webkit-opacity: 0;
+            -khtml-opacity: 0;
+            -moz-opacity: 0;
+            -ms-opacity: 0;
+            -o-opacity: 0;
+            opacity: 0; }
+            .canhcam-shop-3 .product-lists .boxproducts .item .addtocart .btn-group .btn i {
+              display: block; } }
+      .canhcam-shop-3 .product-lists .boxproducts .item .item-detail {
+        position: relative;
+        display: block;
+        text-decoration: none;
+        padding: 1rem; }
+        .canhcam-shop-3 .product-lists .boxproducts .item .item-detail h2 {
+          font-size: 1rem;
+          font-weight: 400;
+          color: gray; }
+        .canhcam-shop-3 .product-lists .boxproducts .item .item-detail .price {
+          color: #e74c3c;
+          font-size: 1.1rem; }
+        .canhcam-shop-3 .product-lists .boxproducts .item .item-detail .price-out {
+          color: gray;
+          font-size: 0.85rem;
+          text-decoration: line-through; }
+        .canhcam-shop-3 .product-lists .boxproducts .item .item-detail figure {
+          overflow: hidden;
+          text-align: center; }
+          .canhcam-shop-3 .product-lists .boxproducts .item .item-detail figure img {
+            max-width: 100%; }
+      .canhcam-shop-3 .product-lists .boxproducts .item:hover img {
+        filter: alpha(opacity=80);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+        -webkit-opacity: 0.8;
+        -khtml-opacity: 0.8;
+        -moz-opacity: 0.8;
+        -ms-opacity: 0.8;
+        -o-opacity: 0.8;
+        opacity: 0.8; }
+      .canhcam-shop-3 .product-lists .boxproducts .item:hover h2 {
+        color: #333333; }
+      .canhcam-shop-3 .product-lists .boxproducts .item:hover .addtocart {
+        filter: alpha(opacity=100);
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        -webkit-opacity: 1;
+        -khtml-opacity: 1;
+        -moz-opacity: 1;
+        -ms-opacity: 1;
+        -o-opacity: 1;
+        opacity: 1; }
+  @media (min-width: 768px) {
+    .canhcam-shop-3 .product-lists #quickView .modal-dialog {
+      max-width: 800px; } }
+  .canhcam-shop-3 .product-lists #quickView .modal-body {
+    overflow: hidden; }
+  .canhcam-shop-3 .product-lists #quickView .bagde {
+    position: absolute;
+    top: 15px;
+    right: initial;
+    left: -45px;
+    -webkit-transform: rotate(-45deg);
+    -khtml-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg); }
+    .canhcam-shop-3 .product-lists #quickView .bagde + .circle {
+      position: absolute;
+      top: 5rem;
+      left: 1rem; }
+  .canhcam-shop-3 .product-lists #quickView .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    background: #e6e6e6;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    cursor: pointer;
+    z-index: 100; }
+  .canhcam-shop-3 .product-lists #quickView .quickview {
+    margin-top: 2rem; }
+  @media (min-width: 768px) {
+    .canhcam-shop-3 .product-lists #quickView figure {
+      display: flex; }
+      .canhcam-shop-3 .product-lists #quickView figure .list-thumb {
+        flex: 0 0 40%;
+        max-width: 40%; }
+      .canhcam-shop-3 .product-lists #quickView figure figcaption {
+        padding-left: 2rem; } }
+  .canhcam-shop-3 .product-lists #quickView figure .list-thumb {
+    display: block; }
+  .canhcam-shop-3 .product-lists #quickView figure .thumb {
+    display: none;
+    text-align: center; }
+  .canhcam-shop-3 .product-lists #quickView figure img {
+    max-width: 100%; }
+  .canhcam-shop-3 .product-lists #quickView figure h2 {
+    font-size: 1.3rem;
+    padding-right: 2rem; }
+  .canhcam-shop-3 .product-lists #quickView figure h3 {
+    font-size: 1.1rem; }
+  .canhcam-shop-3 .product-lists #quickView figure .price {
+    color: #e74c3c;
+    margin-bottom: 0;
+    font-size: 1.3rem; }
+  .canhcam-shop-3 .product-lists #quickView figure .price-out {
+    color: gray;
+    font-size: 0.85rem;
+    text-decoration: line-through; }
+  .canhcam-shop-3 .product-lists #quickView figure .checkbox-styled {
+    cursor: pointer; }
+    .canhcam-shop-3 .product-lists #quickView figure .checkbox-styled span {
+      display: inline-block;
+      background: #f7f7f7;
+      padding-top: 0.5rem;
+      padding-right: 1rem;
+      padding-bottom: 0.5rem;
+      padding-left: 1rem;
+      text-transform: uppercase;
+      border-radius: 5px;
+      border: 1px solid #cccccc; }
+    .canhcam-shop-3 .product-lists #quickView figure .checkbox-styled input[type="checkbox"]:checked + span,
+    .canhcam-shop-3 .product-lists #quickView figure .checkbox-styled input[type="radio"]:checked + span {
+      background: #2e3192;
+      color: #ffffff;
+      border: 1px solid #2e3192; }
+    .canhcam-shop-3 .product-lists #quickView figure .checkbox-styled input {
+      display: none; }
+  .canhcam-shop-3 .product-lists #quickView figure .quantity .form-group {
+    margin-right: 1rem; }
+  .canhcam-shop-3 .product-lists #quickView figure .quantity input {
+    max-width: 40px;
+    text-align: center;
+    border-color: #cccccc; }
+  .canhcam-shop-3 .product-lists #quickView figure .quantity .btn {
+    border-color: #cccccc; }
+  .canhcam-shop-3 .product-lists #quickView figure .quantity .addtocart {
+    border-color: #2e3192;
+    background: #2e3192;
+    color: #ffffff;
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem; }
+    .canhcam-shop-3 .product-lists #quickView figure .quantity .addtocart i {
+      padding-right: .5rem; }
+  .canhcam-shop-3 .product-lists .pager .pagination .page-item .page-link {
+    border-radius: 3px;
+    color: #cccccc;
+    margin-left: 3px; }
+  .canhcam-shop-3 .product-lists .pager .pagination .page-item:first-child .page-link {
+    margin-left: 0; }
+  .canhcam-shop-3 .product-lists .pager .pagination .page-item.active .page-link, .canhcam-shop-3 .product-lists .pager .pagination .page-item:hover .page-link {
+    background: none;
+    color: #2e3192;
+    border-color: #2e3192; }
+  .canhcam-shop-3 .slick-slider .slick-arrow {
+    background: #cccccc;
+    color: #1a1a1a;
+    padding: .5rem .7rem;
+    width: initial;
+    height: initial;
+    z-index: 100; }
+    .canhcam-shop-3 .slick-slider .slick-arrow:before {
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900; }
+    .canhcam-shop-3 .slick-slider .slick-arrow.slick-prev {
+      left: 0; }
+      .canhcam-shop-3 .slick-slider .slick-arrow.slick-prev:before {
+        content: '\f053'; }
+    .canhcam-shop-3 .slick-slider .slick-arrow.slick-next {
+      right: 0; }
+      .canhcam-shop-3 .slick-slider .slick-arrow.slick-next:before {
+        content: '\f054'; }
+  .canhcam-shop-3 .slick-slider .slick-list {
+    text-align: center; }
+    .canhcam-shop-3 .slick-slider .slick-list .slick-slide:focus {
+      outline: none; }
+    .canhcam-shop-3 .slick-slider .slick-list .slick-slide img {
+      display: inline-block; }
 
 /*# sourceMappingURL=main.css.map */
