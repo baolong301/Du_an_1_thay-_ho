@@ -104,85 +104,6 @@
 				left: 2%
 			.owl-next
 				right: 2%
-////////////////////////////////////////////////
-////////////////////////////////////////////////
-///////////////////////FOOTER///////////////////
-
-
-.canhcam-footer-1
-	background-color: darken(color-get($mau,trang) ,85%)
-	position: relative
-	z-index: 1
-	color: darken(color-get($mau,trang) ,50%)
-	overflow: hidden
-	+media-breakpoint-down(xs)
-	h4
-		text-transform: uppercase
-		color: #d8b978
-		position: relative
-		+fz(1rem)
-		margin-bottom: 1.5rem
-		&:after
-			width: 40px
-			height: 1px
-			background: #d8b978
-			content: ''
-			display: block
-			+pos(abs, null null -10px 0)
-
-	.linkfooter
-		padding: 3rem 0 2rem
-		.list-group
-			.list-group-item
-				display: inline-block
-				+bg(none, none, none)
-				border: 0
-				+pad(.5rem 0)
-				+media-breakpoint-up(md)
-					+pad(.15rem 0)
-				a
-					font-size: .9rem
-					+link(darken(color-get($mau,trang),15%),#d8b978,#d8b978)
-		.socials
-			h4
-				&:after
-					+pos(abs, null null -10px 50%)
-					+transform(translateX(-50%))
-					+media-breakpoint-up(md)
-						+pos(abs, null null -10px 50%)
-						+transform(translateX(-50%))
-					+media-breakpoint-up(lg)
-						+pos(abs, null null -10px 0)
-						+transform(translateX(0))
-			.social-list
-				+media-breakpoint-down(sm)
-					+mar(2rem null null null)
-				.list-inline
-					+mar(0)
-					.list-inline-item
-						+fz(.9rem)
-						+link(darken(color-get($mau,trang), 85%), color-get($mau,trang), color-get($mau,trang))
-						+mar(null 1rem null null)
-						a
-							display: block
-							height: 2rem
-							width: 2rem
-							+lh(rem)
-							+bg(darken(color-get($mau,trang),40%), #d8b978,#d8b978)
-							+link(darken(color-get($mau,trang),85%), darken(color-get($mau,trang),0%))
-							+border-radius(50%)
-							text-align: center
-							transition: 0.3s all ease-in-out
-							&:hover
-								+border-radius(25%)
-							i
-								+lh(2rem)
-						&:last-child
-							+mar(0)
-						
-	.copyright
-		padding: 1rem
-		background-color: darken(color-get($mau,trang) ,95%)
 ///////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////hover/////////////////////////////////////////
 .hovereffect 
@@ -1040,3 +961,55 @@ figure
 					outline: none
 				img
 					display: inline-block
+////////////////////////////////Liên Hệ////////////////////////////////////
+.contact
+	background-color: #4f4f4f
+	font-family:  Roboto
+	+media-breakpoint-up(lg)
+		padding-top: 5rem
+
+.icon-wapper
+	position: fixed
+	z-index: 10
+	top: 0rem
+	left: 2rem
+
+.icon-wapper .icon
+	width: 5%
+
+.balance
+	margin-top: 2rem
+
+.box-contact 
+	background-color: darken(lighten(#d8b978,5%),10%)
+	padding: 20px
+	border-radius: 3px
+	margin-bottom: 15px
+	text-align: center
+	font-size: 14px
+	margin-top: 2rem
+
+.text-alig
+	text-align: left
+	font-size: 14px
+
+.bg-info
+	background: #d8b978 !important
+
+.border-primaryy
+	border: #d8b978 1px
+
+.btn-info
+	background-color: #d8b978
+	border-color: #d8b978
+	&:hover
+		background-color: darken(#d8b978,10%)
+		border-color: darken(#d8b978,10%)
+
+.text-infoo
+	color: #d8b978
+
+.form-control
+	&:focus
+		border-color: #d8b978
+		box-shadow: 0 0 0 .2rem #d8b97863
