@@ -221,8 +221,6 @@
 	text-align: center
 	cursor: default
 	background: #3c3c3c
-	margin: 0
-
 
 .hovereffect2 .overlay 
 	width: 100%
@@ -585,6 +583,7 @@ figure
 				text-decoration: underline
 ///////////////////////////Phần Show Sản Phẩm//////////////////////
 .canhcam-shop-3
+	background: #4f4f4f
 	+pad(2rem 0)
 	+media-breakpoint-up(lg)
 		+pad(6rem 0)
@@ -1013,3 +1012,12 @@ figure
 	&:focus
 		border-color: #d8b978
 		box-shadow: 0 0 0 .2rem #d8b97863
+/////////////////////reponsive Sản Phẩm Hot////////////////
+.mt
+	margin-top: 2rem
+	+media-breakpoint-up(lg)
+		margin: 0
+
+.pa-5
+	+media-breakpoint-up(md)
+		padding: 3rem

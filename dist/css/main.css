@@ -6326,7 +6326,7 @@ header {
   position: fixed;
   width: 100%;
   opacity: 0.8;
-  z-index: 2;
+  z-index: 999;
   transition: 0.3s all; }
   header .navbar {
     padding-right: 0;
@@ -6699,8 +6699,7 @@ footer img {
   position: relative;
   text-align: center;
   cursor: default;
-  background: #3c3c3c;
-  margin: 0; }
+  background: #3c3c3c; }
 
 .hovereffect2 .overlay {
   width: 100%;
@@ -7084,6 +7083,7 @@ figure {
     text-decoration: underline; }
 
 .canhcam-shop-3 {
+  background: #4f4f4f;
   padding-top: 2rem;
   padding-right: 0;
   padding-bottom: 2rem;
@@ -7588,5 +7588,15 @@ figure {
 .form-control:focus {
   border-color: #d8b978;
   box-shadow: 0 0 0 .2rem #d8b97863; }
+
+.mt {
+  margin-top: 2rem; }
+  @media (min-width: 992px) {
+    .mt {
+      margin: 0; } }
+
+@media (min-width: 768px) {
+  .pa-5 {
+    padding: 3rem; } }
 
 /*# sourceMappingURL=main.css.map */

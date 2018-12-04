@@ -57,8 +57,6 @@ $(document).ready(function() {
     // Phần Banner Sản Phẩm
     $('.home_service .owl-carousel').owlCarousel({
         items: 1,
-        nav: true,
-        dots: false,
         loop: true,
         autoplay: true,
         autoplaySpeed: 1000,
@@ -66,12 +64,15 @@ $(document).ready(function() {
         responsive: {
             480: {
                 nav: false,
+                dots: true,
             },
             760: {
-                nav: true
+                nav: true,
+                dots: false,
             },
             992: {
-                nav: true
+                nav: true,
+                dots: false,
             }
 
         }

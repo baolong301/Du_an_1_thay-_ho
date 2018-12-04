@@ -89,21 +89,22 @@ $(document).ready(function () {
     // Phần Banner Sản Phẩm
     $('.home_service .owl-carousel').owlCarousel({
         items: 1,
-        nav: true,
-        dots: false,
         loop: true,
         autoplay: true,
         autoplaySpeed: 1000,
         navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'],
         responsive: {
             480: {
-                nav: false
+                nav: false,
+                dots: true
             },
             760: {
-                nav: true
+                nav: true,
+                dots: false
             },
             992: {
-                nav: true
+                nav: true,
+                dots: false
             }
 
         }
