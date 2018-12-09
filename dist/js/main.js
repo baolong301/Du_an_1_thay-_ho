@@ -79,7 +79,7 @@ $(document).ready(function () {
     // Phần Slider
     $('.home-slider .owl-carousel').owlCarousel(_defineProperty({
         items: 1,
-        nav: false,
+        nav: true,
         dots: false,
         autoplay: true,
         autoplaySpeed: 1000,
