@@ -6700,6 +6700,11 @@ footer img {
   text-align: center;
   cursor: default;
   background: #3c3c3c; }
+  .hovereffect2 .fixtext {
+    display: flex;
+    width: 80%flex;
+    text-align: leftflex;
+    margin: 0rem 1remflex; }
 
 .hovereffect2 .overlay {
   width: 100%;
@@ -6758,6 +6763,9 @@ footer img {
 .hovereffect2 p,
 .hovereffect2 h2 {
   color: #ebc678;
+  width: 80%;
+    width-text-align: left;
+    width-margin: 0rem 1rem;
   opacity: 0;
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.45s;
@@ -7598,5 +7606,8 @@ figure {
 @media (min-width: 768px) {
   .pa-5 {
     padding: 3rem; } }
+
+.abc {
+  width: 80%; }
 
 /*# sourceMappingURL=main.css.map */
